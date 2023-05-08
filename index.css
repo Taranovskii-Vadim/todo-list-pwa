@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+header {
+  height: 100px;
+  background: #5d30bf;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  box-shadow: 2px 2px 7px rgb(0 0 0 / 30%);
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
